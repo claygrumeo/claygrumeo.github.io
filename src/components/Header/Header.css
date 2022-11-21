@@ -1,0 +1,40 @@
+.HeaderParent {
+  display: flex;
+  justify-content: center;
+}
+
+.NameCard {
+  padding-top: 200px;
+  color: white;
+  position: relative;
+  z-index: 1;
+  animation: fadeIn 1s;
+}
+
+.NameCardTitle {
+  font-size: 40px;
+  margin: 0;
+}
+
+.NameCardSub {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.SVGBackground {
+  position: absolute;
+  z-index: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  100% {
+    opacity: 100;
+    transform: translateX(0px);
+  }
+}
