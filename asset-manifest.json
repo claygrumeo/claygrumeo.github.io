@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.3c05eedc.css",
+    "main.js": "/react-gh-pages/static/js/main.adcd67c7.js",
+    "static/js/787.3ba5e41c.chunk.js": "/react-gh-pages/static/js/787.3ba5e41c.chunk.js",
+    "static/media/layered-peaks-haikei.svg": "/react-gh-pages/static/media/layered-peaks-haikei.90796264a03b696fe8f87d6848c964e9.svg",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.3c05eedc.css.map": "/react-gh-pages/static/css/main.3c05eedc.css.map",
+    "main.adcd67c7.js.map": "/react-gh-pages/static/js/main.adcd67c7.js.map",
+    "787.3ba5e41c.chunk.js.map": "/react-gh-pages/static/js/787.3ba5e41c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c05eedc.css",
+    "static/js/main.adcd67c7.js"
+  ]
+}
