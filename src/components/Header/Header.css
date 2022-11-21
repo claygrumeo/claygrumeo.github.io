@@ -1,11 +1,11 @@
 .HeaderParent {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .NameCard {
   padding-top: 200px;
-  color: white;
   position: relative;
   z-index: 1;
   animation: fadeIn 1s;
@@ -14,6 +14,7 @@
 .NameCardTitle {
   font-size: 40px;
   margin: 0;
+  color: #8ddddd;
 }
 
 .NameCardSub {
@@ -21,6 +22,7 @@
   font-style: italic;
   font-weight: lighter;
   margin: 0;
+  color: white;
 }
 
 .SVGBackground {
