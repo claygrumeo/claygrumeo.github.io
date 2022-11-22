@@ -14,6 +14,9 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  animation-delay: 300ms;
 }
 
 .AboutMeHeadingText::after {
@@ -31,13 +34,14 @@
 }
 
 .ResumeButton {
-  width: 150px;
-  height: 40px;
   background: #2e4373;
-  color: white;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 700;
+  height: 40px;
+  padding: 15px 5px 0 5px;
   text-decoration: none;
-  padding: 15px 5px 0px 13px;
+  width: 150px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
