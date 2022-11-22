@@ -1,14 +1,13 @@
 .HeaderParent {
   display: flex;
+  background-image: url('../../layered-peaks-haikei.svg');
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .NameCard {
   padding-top: 200px;
-  position: relative;
-  z-index: 1;
   animation: fadeIn 1s;
+  padding-bottom: 50px;
 }
 
 .NameCardTitle {
@@ -23,11 +22,6 @@
   font-weight: lighter;
   margin: 0;
   color: white;
-}
-
-.SVGBackground {
-  position: absolute;
-  z-index: 0;
 }
 
 @keyframes fadeIn {

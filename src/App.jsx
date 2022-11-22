@@ -6,8 +6,10 @@ import AboutMe from './components/AboutMe/AboutMe';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <AboutMe />
+      <div className="ContentWrapper">
+        <Header />
+        <AboutMe />
+      </div>
     </div>
   );
 }
