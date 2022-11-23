@@ -1,19 +1,20 @@
 .AboutMeParent {
-  background-color: #091520;
+  background-color: #001220;
   position: relative;
-  height: 400px;
+  height: 265px;
   margin: auto;
   display: flex;
   flex-direction: row;
-  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .AboutMeCol {
   width: 50%;
   color: white;
   display: flex;
-  flex-direction: column;
   text-align: left;
+  justify-content: center;
+  align-items: center;
 }
 
 .AboutMeHeadingText::after {
@@ -52,7 +53,6 @@
   border-radius: 50%;
   width: 50%;
   align-self: center;
-  padding-top: 20px;
   opacity: 0;
   animation: fadeIn 1s forwards;
   animation-delay: 150ms;
@@ -62,7 +62,7 @@
   .AboutMeParent {
     flex-direction: column;
     align-items: center;
-    height: 600px;
+    height: 470px;
   }
 
   .AboutMeText {
