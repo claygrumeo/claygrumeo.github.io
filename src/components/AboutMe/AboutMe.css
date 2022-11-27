@@ -5,7 +5,7 @@
   margin: auto;
   display: flex;
   flex-direction: row;
-  padding-bottom:100px;
+  padding-bottom: 100px;
 }
 
 .AboutMeCol {
@@ -36,11 +36,12 @@
   background: #2e4373;
   color: #fff;
   font-weight: 700;
-  height: 40px;
+  height: 20px;
   padding: 15px 5px 15px 5px;
   text-decoration: none;
   width: 150px;
   text-align: center;
+  margin-right: 25px;
 }
 
 .AboutMeContent {
@@ -56,6 +57,17 @@
   opacity: 0;
   animation: fadeIn 1s forwards;
   animation-delay: 150ms;
+}
+
+.LinkedInLogo {
+  width: 59px;
+  padding-top: 5px;
+}
+
+.AboutMeButtonsContainer {
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 a {
