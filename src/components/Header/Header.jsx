@@ -5,7 +5,7 @@ import NameCard from './NameCard'
 export default function Header() {
   return (
     <div className='HeaderParent'>
-      <NameCard />
+      <NameCard name="Clay Grumieaux" title="Developer"/>
     </div>
   )
 }

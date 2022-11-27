@@ -1,0 +1,152 @@
+.SkillsParent {
+  height: 580px;
+  position: relative;
+}
+
+.SkillsParentBackground {
+  position: absolute;
+  background-attachment: fixed;
+  background-image: url("../../endless-constellation.svg");
+  width: 100%;
+  height: 100%;
+  filter: blur(1px);
+}
+
+.SkillsParentOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #34759f;
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.SkillsContent {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  color: white;
+  padding: 20px 0 0 100px;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  animation-delay: 300ms;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.SkillsContent .SkillsList {
+  text-align: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.SkillsContent .SkillsList .SkillCategory {
+  font-size: 25px;
+  margin: 0 70px 10px -10px;
+  width: 100%;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.SkillsContent .SkillsList .SkillCategory .SkillCategoryList {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.SkillsHeadingText {
+  text-align: left;
+  margin-right: 45px;
+  cursor: pointer;
+  height: 15px;
+  margin-bottom: 40px;
+}
+
+.SkillsHeadingText:hover {
+  color: #54a9c1;
+}
+
+.SkillsHeadingText.active {
+  color: #54a9c1;
+}
+
+.SkillsHeadingText.active::after {
+  background: none repeat scroll 0 0 #2e4373;
+  bottom: -5px;
+  content: "";
+  display: block;
+  height: 5px;
+  position: relative;
+  width: 60px;
+}
+
+.SkillsHeadingText:hover::after {
+  background: none repeat scroll 0 0 #2e4373;
+  bottom: -5px;
+  content: "";
+  display: block;
+  height: 5px;
+  position: relative;
+  width: 60px;
+}
+
+.NavButtonsContainer {
+  display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+  .NavButtonsContainer {
+    flex-direction: column;
+  }
+
+  .SkillsHeadingText {
+    margin-bottom: 20px;
+  }
+
+  .SkillsContent {
+    padding: 20px 0 0 50px;
+    flex-direction: row;
+  }
+
+  .SkillsContent .SkillsList {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .SkillsParent {
+    transform: translateY(-120px);
+  }
+
+  .SkillsContent {
+    padding: 10px 0 0 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .SkillsParent {
+    height: 600px;
+  }
+  
+  .SkillsContent {
+    flex-direction: column;
+  }
+
+  .SkillsContent .SkillsList {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .SkillsParent {
+    height: 620px;
+  }
+  
+  .SkillsContent {
+    padding: 30px 0 0 20px;
+  }
+
+  .SkillsContent .SkillsList .SkillCategory {
+    margin: 0 70px 10px -10px;
+  }
+}

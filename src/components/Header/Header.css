@@ -1,6 +1,6 @@
 .HeaderParent {
   display: flex;
-  background-image: url('../../layered-peaks-haikei.svg');
+  background-image: url("../../layered-peaks-haikei.svg");
   justify-content: center;
 }
 
@@ -32,5 +32,21 @@
   100% {
     opacity: 100;
     transform: translateX(0px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .HeaderParent {
+    transform: translateY(-50px);
+  }
+
+  .NameCard {
+    transform: translateY(-50px);
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .NameCard {
+    transform: translateY(-50px);
   }
 }

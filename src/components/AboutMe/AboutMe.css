@@ -1,11 +1,11 @@
 .AboutMeParent {
   background-color: #001220;
   position: relative;
-  height: 265px;
+  height: 250px;
   margin: auto;
   display: flex;
   flex-direction: row;
-  padding-bottom: 50px;
+  padding-bottom:100px;
 }
 
 .AboutMeCol {
@@ -58,11 +58,16 @@
   animation-delay: 150ms;
 }
 
+a {
+  color: #54a9c1;
+}
+
 @media only screen and (max-width: 600px) {
   .AboutMeParent {
+    transform: translateY(-120px);
     flex-direction: column;
     align-items: center;
-    height: 470px;
+    height: 500px;
   }
 
   .AboutMeText {
@@ -84,5 +89,17 @@
     height: 5px;
     position: relative;
     width: 60px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .AboutMeParent {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .AboutMeParent {
+    transform: translateY(-100px);
   }
 }

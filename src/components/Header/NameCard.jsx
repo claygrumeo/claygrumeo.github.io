@@ -1,8 +1,8 @@
-export default function NameCard() {
+export default function NameCard({ name, title }) {
   return(
     <div className="NameCard">
-      <h1 className="NameCardTitle">Clay Grumieaux</h1>
-      <p className="NameCardSub">Developer</p>
+      <h1 className="NameCardTitle">{name}</h1>
+    <p className="NameCardSub">{title}</p>
     </div>
   )
 }
