@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ab02bac.css",
-    "main.js": "/static/js/main.8ba28701.js",
+    "main.css": "/static/css/main.12452e4b.css",
+    "main.js": "/static/js/main.ef3fa141.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/picture.PNG": "/static/media/picture.6a34c6bfa3013bb6b838.PNG",
-    "static/media/layered-peaks-haikei.svg": "/static/media/layered-peaks-haikei.90796264a03b696fe8f87d6848c964e9.svg",
+    "static/media/layered-peaks-haikei.svg": "/static/media/layered-peaks-haikei.39dcb44ed5bc9b9fadb42100e9149267.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/endless-constellation.svg": "/static/media/endless-constellation.9241829afabb79d488e8.svg",
+    "static/media/endless-constellation.svg": "/static/media/endless-constellation.6c602d9688ebe7ea411b.svg",
     "index.html": "/index.html",
-    "main.2ab02bac.css.map": "/static/css/main.2ab02bac.css.map",
-    "main.8ba28701.js.map": "/static/js/main.8ba28701.js.map",
+    "main.12452e4b.css.map": "/static/css/main.12452e4b.css.map",
+    "main.ef3fa141.js.map": "/static/js/main.ef3fa141.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ab02bac.css",
-    "static/js/main.8ba28701.js"
+    "static/css/main.12452e4b.css",
+    "static/js/main.ef3fa141.js"
   ]
 }
