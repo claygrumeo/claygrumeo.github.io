@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6eecec2c.css",
-    "main.js": "/static/js/main.bd000407.js",
+    "main.css": "/static/css/main.fe1f53cd.css",
+    "main.js": "/static/js/main.713e87d1.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
+    "static/media/dice_roller.PNG": "/static/media/dice_roller.0fcce491ead1b881de6e.PNG",
     "static/media/picture.PNG": "/static/media/picture.6a34c6bfa3013bb6b838.PNG",
+    "static/media/memory_game.PNG": "/static/media/memory_game.01e7eefebb36428c7918.PNG",
     "static/media/layered-peaks-haikei.svg": "/static/media/layered-peaks-haikei.90796264a03b696fe8f87d6848c964e9.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/endless-constellation.svg": "/static/media/endless-constellation.9241829afabb79d488e8.svg",
     "index.html": "/index.html",
-    "main.6eecec2c.css.map": "/static/css/main.6eecec2c.css.map",
-    "main.bd000407.js.map": "/static/js/main.bd000407.js.map",
+    "main.fe1f53cd.css.map": "/static/css/main.fe1f53cd.css.map",
+    "main.713e87d1.js.map": "/static/js/main.713e87d1.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eecec2c.css",
-    "static/js/main.bd000407.js"
+    "static/css/main.fe1f53cd.css",
+    "static/js/main.713e87d1.js"
   ]
 }
