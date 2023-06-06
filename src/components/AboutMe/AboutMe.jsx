@@ -24,7 +24,7 @@ export default function AboutMe() {
           <div className="AboutMeButtonsContainer">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1dG7Gg-ClAgUPKp0rkkgPimxmrviB2owl/view?usp=share_link"
+              href="https://drive.google.com/file/d/1VtUtDj-4oKqRIeFtcxZFmkT-LET88KgD/view?usp=sharing"
               className="ResumeButton"
               download="ClayGrumieauxResume.pdf"
               rel="noreferrer"

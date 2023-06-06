@@ -1,5 +1,5 @@
 .SkillsParent {
-  height: 580px;
+  height: 610px;
   position: relative;
 }
 
@@ -37,8 +37,27 @@
 
 .SkillsContent .SkillsList {
   text-align: left;
-  width: 100%;
+  width: 40%;
   margin-top: 30px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.SkillsContent .EducationList {
+  width: 75%;
+}
+
+.SkillsContent .WorkHistoryList {
+  width: 85%;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.WorkHistoryList .SkillCategory {
+  margin: 0px 70px 20px -10px !important;
 }
 
 .SkillsContent .SkillsList .SkillCategory {
@@ -51,7 +70,11 @@
 
 .SkillsContent .SkillsList .SkillCategory .SkillCategoryList {
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+.WorkHistoryList .SkillCategoryList li {
+  font-size: 16px;
 }
 
 .SkillsHeadingText {
@@ -94,6 +117,20 @@
   display: flex;
 }
 
+@media only screen and (max-width: 780px) {
+  .SkillsContent {
+    padding: 20px 0 0 15px;
+  }
+
+  .SkillsContent .SkillsList {
+    width: 25%;
+  }
+
+  .SkillsContent .EducationList, .SkillsContent .WorkHistoryList {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .NavButtonsContainer {
     flex-direction: column;
@@ -101,6 +138,7 @@
 
   .SkillsHeadingText {
     margin-bottom: 20px;
+    margin-right: 18px;
   }
 
   .SkillsContent {
@@ -110,6 +148,7 @@
 
   .SkillsContent .SkillsList {
     margin-left: 0px;
+    height: 530px;
   }
 }
 
@@ -120,6 +159,23 @@
 
   .SkillsContent {
     padding: 10px 0 0 40px;
+    height: 90%;
+  }
+
+  .SkillsContent .SkillsList {
+    height: 540px;
+    flex-wrap: nowrap;
+    width: 40%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .SkillsHeadingText {
+    margin-right: 60px;
+  }
+
+  .SkillsContent .EducationList {
+    width: 60%;
   }
 }
 
@@ -130,6 +186,7 @@
   
   .SkillsContent {
     flex-direction: column;
+    height: 100%;
   }
 
   .SkillsContent .SkillsList {
@@ -139,14 +196,25 @@
 
 @media only screen and (max-width: 330px) {
   .SkillsParent {
-    height: 620px;
+    height: 680px;
   }
   
   .SkillsContent {
     padding: 30px 0 0 20px;
+    overflow-y: scroll;
+    height: 95%;
   }
 
   .SkillsContent .SkillsList .SkillCategory {
     margin: 0 70px 10px -10px;
+  }
+
+  .SkillsContent .SkillsList .SkillCategory .SkillCategoryList {
+    overflow-wrap: break-word;
+    font-size: 16px;
+  }
+
+  .SkillsContent .SkillsList {
+    flex-wrap: nowrap;
   }
 }
