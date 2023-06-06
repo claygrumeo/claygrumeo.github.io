@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe1f53cd.css",
-    "main.js": "/static/js/main.713e87d1.js",
+    "main.js": "/static/js/main.a030d24f.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/dice_roller.PNG": "/static/media/dice_roller.0fcce491ead1b881de6e.PNG",
     "static/media/picture.PNG": "/static/media/picture.6a34c6bfa3013bb6b838.PNG",
@@ -11,11 +11,11 @@
     "static/media/endless-constellation.svg": "/static/media/endless-constellation.9241829afabb79d488e8.svg",
     "index.html": "/index.html",
     "main.fe1f53cd.css.map": "/static/css/main.fe1f53cd.css.map",
-    "main.713e87d1.js.map": "/static/js/main.713e87d1.js.map",
+    "main.a030d24f.js.map": "/static/js/main.a030d24f.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe1f53cd.css",
-    "static/js/main.713e87d1.js"
+    "static/js/main.a030d24f.js"
   ]
 }
