@@ -2,6 +2,8 @@ import React from "react";
 import "./Skills.css";
 import SkillsList from "./SkillsList";
 import { useState } from "react";
+import MemoryGameImage from "../../memory_game.PNG";
+import DiceRollerImage from "../../dice_roller.PNG";
 
 export default function Skills() {
   const [active, setActive] = useState("Skills");
@@ -9,7 +11,14 @@ export default function Skills() {
   const SkillsData = [
     {
       title: "Languages",
-      items: ["JavaScript", "TypeScript", "CoffeeScript", "Golang", "Java", "Python"],
+      items: [
+        "JavaScript",
+        "TypeScript",
+        "CoffeeScript",
+        "Golang",
+        "Java",
+        "Python",
+      ],
     },
     {
       title: "Front-End Technologies",
@@ -114,7 +123,7 @@ export default function Skills() {
       items: [
         "Apr 2012 - Mar 2013",
         "Maintained and monitored residential computer labs on the Indiana University Bloomington campus.",
-        "Addressed tech problems for residents of campus housing by appointment."
+        "Addressed tech problems for residents of campus housing by appointment.",
       ],
     },
     {
@@ -122,9 +131,20 @@ export default function Skills() {
       items: [
         "Jan 2012 - Apr 2012",
         "Monitored and maintained Indiana University Student Technology Center computer labs.",
-        "Assist customers with any software being used on lab machines."
+        "Assist customers with any software being used on lab machines.",
       ],
     },
+  ];
+
+  const ProjectsData = [
+    {
+      title: "Memory Matching Game",
+      items: ["React", "JavaScript", "JSX", "CSS"],
+    },
+    {
+      title: "Dice Roller Tool",
+      items: ["Ruby on Rails", "JavaScript", "Three.js", "HTML", "CSS"]
+    }
   ];
 
   const HobbiesData = [
@@ -169,6 +189,14 @@ export default function Skills() {
             Work
           </h1>
           <h1
+            onClick={() => setActive("Projects")}
+            className={`SkillsHeadingText ${
+              active === "Projects" ? "active" : ""
+            }`}
+          >
+            Projects
+          </h1>
+          <h1
             onClick={() => setActive("Interests")}
             className={`SkillsHeadingText ${
               active === "Interests" ? "active" : ""
@@ -183,6 +211,14 @@ export default function Skills() {
         )}
         {active === "WorkHistory" && (
           <SkillsList data={WorkHistoryData} type="WorkHistory" />
+        )}
+        {active === "Projects" && (
+          <SkillsList
+            data={ProjectsData}
+            type="Projects"
+            images={[MemoryGameImage, DiceRollerImage]}
+            links={["https://memorygame-gamma.vercel.app/", "https://dice-roller.fly.dev/"]}
+          />
         )}
         {active === "Interests" && (
           <SkillsList data={HobbiesData} type="Interests" />

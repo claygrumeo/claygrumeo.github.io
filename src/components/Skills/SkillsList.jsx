@@ -1,11 +1,13 @@
 import SkillsListItem from "./SkillsListItem";
 
-export default function SkillsList({ data, type }) {
-
+export default function SkillsList({ data, type, images, links }) {
   return (
     <ul className={`SkillsList ` + type + `List`}>
-      {data.map((listItem) => (
-        <SkillsListItem key={listItem.title} listItems={listItem} />
+      {data.map((listItem, i) => (
+        <div className="SkillsListItem">
+          <SkillsListItem key={listItem.title} listItems={listItem} link={links?.length > 0 ? links[i] : null} />
+          {images !== undefined && <img className="ProjectThumbnail" src={images[i]} alt={`ProjectImage` + i} />}
+        </div>
       ))}
     </ul>
   );

@@ -64,6 +64,7 @@
   font-size: 25px;
   margin: 0 70px 10px -10px;
   width: 100%;
+  min-width: 300px;
   opacity: 0;
   animation: fadeIn 0.5s forwards;
 }
@@ -115,6 +116,22 @@
 
 .NavButtonsContainer {
   display: flex;
+}
+
+.ProjectThumbnail {
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+  animation: fadeIn .5s forwards;
+}
+
+.SkillsListItem {
+  display: flex;
+  align-items: center;
+}
+
+.SkillsContent .ProjectsList .SkillCategory {
+  margin: 0 10px 10px -10px;
 }
 
 @media only screen and (max-width: 780px) {
