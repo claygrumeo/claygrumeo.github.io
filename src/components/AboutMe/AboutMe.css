@@ -106,8 +106,12 @@ a {
   }
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 330px) {
   .AboutMeParent {
     height: 550px;
+  }
+
+  .AboutMeText, .AboutMeHeadingText {
+    padding: 0 10px 0 10px;
   }
 }
